@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinya Shop</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/cssreset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+   <div id="topLink">
+        <row>
+            <a href="#" class="credit">
+                <i class="fa-solid fa-credit-card"></i>
+                刷卡不加價/六期零利率</a>
+            <ul class="links">
+                <li class="links_item">
+                    <a href="#">
+                        <img src="../images/icons-bigslae.svg" alt="天天下殺">
+                        天天下殺
+                    </a>
+                </li>
+                <li class="links_item">
+                    <a href="#">
+                        <img src="../images/icons-auction.svg" alt="天天競標">
+                        天天競標
+                    </a>
+                </li>
+                <li class="links_item">
+                    <a href="#">
+                        <img src="../images/icons-refurbished.svg" alt="福利品出清">
+                        福利品出清
+                    </a>
+                </li>
+                <li class="links_item">
+                    <a href="#">
+                        <img src="../images/icons-wish.svg" alt="許願價">
+                        許願價
+                    </a>
+                </li>
+                <li class="links_item">
+                    <a href="#">
+                        <img src="../images/icons-student.svg" alt="加入學購學生價">
+                        加入學購學生價
+                    </a>
+                </li>
+                <li class="links_item">
+                    <a href="#">
+                        <img src="../images/icons-discount.svg" alt="折扣碼">
+                        折扣碼
+                    </a>
+                </li>
+            </ul>
+        </row>
+   </div>
+
+    <div id="header">
+        <row>
+            <div class="nav_left">
+                <button class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../images/logo-w.svg" class="logo" alt="Logo">
+                </a>
+            </div>
+            
+            <div class="nav_right">
+                <div class="search">
+                    <!-- 輸入框 -->
+                    <input type="text" name="" id="">
+                    <span>|</span>
+                    <!-- 下拉選單 -->
+                    <div class="btn-group">
+                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            全站商品
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">線上估價</a>
+                            <a class="dropdown-item" href="#">筆電旗艦館</a>
+                            <a class="dropdown-item" href="#">Apple館</a>
+                            <a class="dropdown-item" href="#">...</a>
+                        </div>
+                    </div>
+                    <!-- 按鈕 -->
+                    <button class="s_btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="userName">
+                    <i class="fa-solid fa-user"></i>
+                    <span>安***</span>
+                    <a href="#">登出</a>
+                </div>
+                <div class="cart">
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <div class="order_img">
+                    <a href="#"><i class="fa-solid fa-file"></i></a>
+                </div>
+                <ul class="order-point">
+                    <li><a href="#">訂單查詢</a></li>
+                    <li><a href="#">門市據點</a></li>
+                </ul>
+            </div>
+        </row>
+    </div>
+
+    <div id="steps">
+        <h4 class="step">
+            <div class="number">
+                1
+            </div>
+            我的購物車
+        </h4>
+        <i class="fa-solid fa-chevron-right"></i>
+        <h4 class="step green">
+            <div class="number">
+                2
+            </div>
+            運送及付款方式
+        </h4>
+        <i class="fa-solid fa-chevron-right"></i>
+        <h4 class="step">
+            <div class="number">
+                3
+            </div>
+            送出訂單
+        </h4>
+    </div>
+    <div id="warp">
+        <div class="cart">
+            <!-- Accordion example 手風琴 -->
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <!-- 手風琴頭部 -->
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <row>
+                                    <div class="left">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>購物車結帳 (2)</span>
+                                    </div>
+                                    <div class="right">
+                                        <span>收合明細 －</span>
+                                    </div>
+                                </row>
+                            </button>
+                        </h2>
+                    </div>
+                    <!-- 手風琴內容 -->
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <!-- 表格 -->
+                            <table class="table">
+                                <!-- 表頭 -->
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col" class="col-md-4">商品</th>
+                                        <th scope="col" class="col-md-2 mid">數量</th>
+                                        <th scope="col" class="col-md-2 mid">售價</th>
+                                        <th scope="col" class="col-md-2 mid">折價</th>
+                                        <th scope="col" class="col-md-2 mid">小計</th>
+                                    </tr>
+                                </thead>
+                                <!-- 第一組產品 -->
+                                <tbody class="product">
+                                    <tr>
+                                        <td class="productData">
+                                            <img src="../images/prod_170395_1643007775.jpg" alt="筆電">
+                                            <span class="productName">ASUS X515EP-0221G1135G7 星空灰 華碩四邊窄框輕薄筆電/i5-1135G7/MX330 2G/8G/512G PCie/15.6吋FHD IPS/W11</span>
+                                        </td>
+                                        <td class="mid"><h4 class="mobile">數量：</h4>1</td>
+                                        <td class="mid"><h4 class="mobile">售價：</h4>19,999</td>
+                                        <td class="mid red"><h4 class="mobile">折價：</h4></td>
+                                        <td class="mid"><h4 class="mobile">小計：</h4>19,999</td>
+                                    </tr>
+                                </tbody>
+                                <!-- 贈品 -->
+                                <tbody class="free">
+                                    <tr>
+                                        <td class="productData">
+                                            <div class="box red">贈品</div>
+                                            <span class="productName">Powesync群加 1開6插防雷擊抗搖擺延長線 1.8M</span>
+                                        </td>
+                                        <td class="mid"><h4 class="mobile">數量：</h4>1</td>
+                                        <td class="mid freeNone"></td>
+                                        <td class="mid red freeNone"></td>
+                                        <td class="mid freeNone"></td>
+                                    </tr>
+                                </tbody>
+
+                                <!-- 第二組產品 -->
+                                <tbody class="product">
+                                    <tr>
+                                        <td class="productData">
+                                            <img src="../images/prod_171973_1669016789.jpg" alt="滑鼠">
+                                            <span class="productName">海盜船 SABRE RGB PRO 有線滑鼠/有線/18000Dpi/Omron微動/減阻傘繩線/Rgb(CH-9303111-AP)</span>
+                                        </td>
+                                        <td class="mid"><h4 class="mobile">數量：</h4>1</td>
+                                        <td class="mid"><h4 class="mobile">售價：</h4>1,490</td>
+                                        <td class="mid red"><h4 class="mobile">折價：</h4>-400</td>
+                                        <td class="mid"><h4 class="mobile">小計：</h4>1,090</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="allMoney">
+                        <div class="money subtotal">
+                            <h4>商品小計</h4>
+                            <span>$ 21,489</span>
+                        </div>
+                        <div class="money Discount">
+                            <h4>折抵金額</h4>
+                            <span>$ -400</span>
+                        </div>
+                        <div class="money alltotal">
+                            <h4>總金額</h4>
+                            <h2 class="red">$ 21,089</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <!-- 表單 -->
+
+            <form>
+                <div class="form-group row">
+                    <div class="col-md-2 col-sm-12 title">組裝服務</div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input checkbox" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">電腦需組裝</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input checkbox" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">工具人貼心服務</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 red tips">* 商品(含組裝 PC)出貨不提供超出商品內部預設值之外的設定服務。</div>
+                </div>
+
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-md-2 col-sm-12 title pt-0">發票確認</legend>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="billRadios" id="billRadios1" value="option1" checked>
+                                <label class="form-check-label" for="inlineRadio1">發票需統編</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="billRadios" id="billRadios2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">手機載具</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="billRadios" id="billRadios3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3">愛心碼捐贈</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 red tips">* 發票皆開立實際品項及金額，不提供分開開立發票及指定明細。</div>
+                    </div>
+                </fieldset>
+                <div class="sub">
+                    <div class="form-group row">
+                        <div class="col-md-4 mb-3 p-0">
+                            <label for="validationCustom01">統一編號</label>
+                            <input type="text" class="form-control" id="validationCustom01" value=" " required>
+                        </div>
+                    </div>
+                </div>
+
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-md-2 col-sm-12 title pt-0">運送方式</legend>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="sendRadios" id="sendRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="inlineRadio1">宅配</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="sendRadios" id="sendRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">門市取貨</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 red tips">* 提醒您，無法指定配送時間。五個工作天內交貨，如遇廠商缺貨不在此限制中。</div>
+                    </div>
+                </fieldset>
+                <div class="sub">
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">姓名</label>
+                            <input type="text" class="form-control" id="validationCustom01" value=" " required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom02">手機</label>
+                            <input type="text" class="form-control" id="validationCustom02" value=" " required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom03">市話</label>
+                            <input type="text" class="form-control" id="validationCustom03" value=" " required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">取貨門市</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>高雄建國店(高雄市三民區建國二路121號1樓07-2380771#10、11)</option>
+                                <option value="1">台北八德旗艦店(台北市中正區八德路一段15號1樓02-23211126)</option>
+                                <option value="2">台北光華微星館(台北市中正區市民大道三段8號（光華數位新天地1樓A10櫃位)02-23412615)</option>
+                                <option value="3">台北光華數位一館(台北市中正區市民大道三段8號（光華數位新天地1樓A10、A11櫃位)02-23412615)</option>
+                                <option value="4">....</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-2 col-sm-12 title">付款方式</div>
+                    <div class="col-md-10 col-sm-12">
+                        <!-- 文字按鈕 -->
+                        <button class="payBtn">ATM轉帳</button>
+                        <button class="payBtn">信用卡一次付清</button>
+                        <button class="payBtn active">線上刷卡分期</button>
+                        <button class="payBtn">貨到付款</button>
+                        <button class="payBtn">門市付款</button>
+                        <button class="payBtn">門市刷卡</button>
+                        <br>
+                        <!-- 圖案按鈕 -->
+                        <button class="pay payBtn"><img src="../images/linepay.png" alt="linepay"></button>
+                        <button class="pay payBtn"><img src="../images/gamapay.png" alt="gamepay"></button>
+                        <button class="pay payBtn"><img src="/images/jkopay.png" alt="jkopay"></button>
+                        <button class="pay payBtn"><img src="../images/pipay.png" alt="pipay"></button>
+                        <button class="pay payBtn"><img src="../images/zingpay.png" alt="zingpay"></button>
+                    </div>
+                </div>
+                <div class="sub">
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="payRadios" id="payRadios1" value="option1"
+                                    checked>
+                                <label class="form-check-label" for="inlineRadio1">中國信託</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="payRadios" id="payRadios2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">玉山、凱基、聯邦</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="payRadios" id="payRadios3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3">花旗、台新</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="payRadios" id="payRadios4" value="option4">
+                                <label class="form-check-label" for="inlineRadio4">其他信用卡</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-sm-12">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="splitRadios" id="splitRadios1" value="option1"checked>
+                                <label class="form-check-label" for="inlineRadio1"><span class="red">3</span> 期 | <span class="red">0</span>利率，每期約 <span class="red">7,030</span> 元</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="splitRadios" id="splitRadios2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2"><span class="red">6</span> 期 | <span class="red">0</span>利率，每期約 <span class="red">3,515</span> 元</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="splitRadios" id="splitRadios3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3"><span class="red">12</span> 期 | <span class="red">0</span>利率，每期約 <span class="red">1,758</span> 元</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="splitRadios" id="splitRadios4" value="option4">
+                                <label class="form-check-label" for="inlineRadio4"><span class="red">24</span> 期 | <span class="red">0</span>利率，每期約 <span class="red">809</span> 元</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="exampleFormControlTextarea1" class="col-md-2 col-sm-12 title">訂單備註</label>
+                    <div class="textarea col-md-10 col-sm-12">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    
+                </div>
+
+
+            </form>
+
+        </div>
+        <div class="note">
+            <div class="note_title">
+                <span>欣亞購物網購物約定條款 |</span>
+                <span>詐騙手法日益新，多方求證保荷包！</span>
+                <a href="#">查證網址</a>
+            </div>
+            <p>
+                欣亞數位股份有限公司係依據欣亞購物網會員服務條款及欣亞購物網購物約定條款（以下稱本條款）提供您欣亞購物網各項數位內容暨電子商務之所有相關服務，包括但不限於現有或未來新增之各項服務。歡迎您在欣亞購物網消費並成為欣亞購物網使用者（以下簡稱使用者）。為保障您的權益，請您先閱讀以下的約定條款，當您點選「我同意」的核取方塊或在欣亞購物網站進行訂購、兌換、付款、消費或進行相關行為（以下簡稱本服務），即視為您事先已經知悉並同意遵守本約定條款的所有約定，本約定條款得隨時修訂並公告於欣亞購物網上，修訂內容自公告時起生效。
+            </p>
+        </div>
+        <div class="check_btn">
+            <row>
+                <div class="check col-md-8 col-sm-12">
+                    <input type="checkbox" name="licence" class="checkbox" value="value1">
+                    <label>
+                        我同意 <a href="#">欣亞購物網</a> 購物需知
+                    </label>
+                </div>
+                <button class="next col-md-4 col-sm-12">
+                    <!-- <h4>確認結帳</h4> -->
+                    確認結帳
+                </button>
+            </row>
+        </div>
+    </div>
+    
+    <footer id="footer">
+        <row class="warp">
+            <div class="col-lg-8 col-md-8 col-sm-12 f_nav">
+                <div class="item">
+                    <span>關於欣亞</span>
+                    <ul class="d-flex flex-wrap">
+                        <li><a href="#">關於我們</a></li>
+                        <li><a href="#">企業精神</a></li>
+                        <li><a href="#">欣亞三大保證</a></li>
+                        <li><a href="#">全國門市</a></li>
+                        <li><a href="#">得獎獎項</a></li>
+                        <li><a href="#">欣亞徵才</a></li>
+                        <li><a href="#">SI 系統整合事業部</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <span>購物流程</span>
+                    <ul class="d-flex flex-wrap">
+                        <li><a href="#">購物說明</a></li>
+                        <li><a href="#">購物需知</a></li>
+                        <li><a href="#">出貨說明</a></li>
+                        <li><a href="#">購物滿額享免運</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <span>付款方式</span>
+                    <ul class="d-flex flex-wrap">
+                        <li><a href="#">付款方式說明</a></li>
+                        <li><a href="#">網路購物3D認證</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <span>會員權益</span>
+                    <ul class="d-flex flex-wrap">
+                        <li><a href="#">隱私權政策</a></li>
+                        <li><a href="#">服務條款</a></li>
+                        <li><a href="#">七天鑑賞期</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <span>售後服務</span>
+                    <ul class="d-flex flex-wrap">
+                        <li><a href="#">欣亞快換中心</a></li>
+                        <li><a href="#">欣亞檢測&代送</a></li>
+                        <li><a href="#">維修流程說明</a></li>
+                        <li><a href="#">維修品查詢</a></li>
+                        <li><a href="#">簡易故障排除</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <span>網路客服</span>
+                    <ul class="d-flex flex-wrap">
+                        <li><a href="#">訂單查詢</a></li>
+                        <li><a href="#">退貨流程說明</a></li>
+                        <li><a href="#">取消訂單說明</a></li>
+                        <li><a href="#">欣亞客服小天使</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <span>企業公益</span>
+                    <ul class="d-flex flex-wrap">
+                        <li><a href="#">安欣計畫的起心動念</a></li>
+                        <li><a href="#">長期支持安欣計畫</a></li>
+                        <li><a href="#">一店一公益</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 service">
+                <div class="connect">
+                    <div class="co">
+                        <row>
+                            <img src="../images/logo-wg.svg" alt="Logo" class="f_logo">
+                            <div class="socialMedia">
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-line"></i></a>
+                            </div>
+                        </row>
+                    </div>
+                    
+                    <div class="box">
+                        <span>臺灣 807 高雄市三民區建國二路121號</span>
+                        <span>客服專線：0800-380-380</span>
+                        <span>服務時間：10:00 ~ 17:00</span>
+                    </div>
+                </div>
+                <div class="verify">
+                    <img src="../images/twca_small.gif" alt="SSL" class="ssl">
+                </div>
+            </div>
+        </row>
+    
+        <div class="copyright">Copyright ©︎ Sinya Digital Corporation. All rights reserved.</div>
+
+    </footer>
+
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+</html>
